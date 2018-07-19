@@ -1,0 +1,865 @@
+﻿<repository
+id="b5b8b797-6a2c-4b95-afa3-26d1736a09c1"
+name="ConstructButtonsRepository"
+rxversion="7.0">
+	<codegen
+	classname="ConstructButtonsRepository"
+	namespace="ConstructButtons">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="949b019f-16d6-4e05-84bb-2a0e2465bdb8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="df197202-c3fb-4ce3-a56a-39ea2ce0172c"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="505d653a-f136-401d-a70f-a8a50f13c935"
+			name="Titlebar"
+			refimgid="da3834d5-52f0-4af1-9d77-ea88bc425e4d"
+			refpath="/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b082c264-94d2-498b-adf2-2e8c96c881ed"
+			name="FeaturesWidth"
+			refimgid="fb0695e1-b38b-4c80-b00d-3aa71e9dc6e4"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/button[@controlid='1516' and @class='Button' and @instance='8']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="241faead-582b-4d47-bd94-342953c9bfcf"
+			name="DiametricalToleranceZone"
+			refimgid="1e6f7023-98e3-457f-bfe1-315e43a89d55"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text~'^Diametrical\ tolerance\ zon']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="10b97af2-d148-4077-a367-24d0116d81a7"
+			name="RadioButtonID"
+			refimgid="1bab9322-8d11-44aa-99f4-baf73f4cf6dd"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='ID']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="ecaaf612-58f7-41ea-ab75-cd71ddf88ef7"
+			name="RadioButtonLMC"
+			refimgid="a91f6cab-f6d3-405b-bf87-13935decdbf1"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='LMC']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="946047db-54de-4610-b3f2-c4ed8ec97dc6"
+			name="RadioButtonMMC"
+			refimgid="de21fe56-8efc-4c10-91c3-01dd92d5c39b"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='MMC']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="9e5dae2f-af4b-4939-9501-cbb6ed74c0dd"
+			name="RadioButtonOD"
+			refimgid="8f3d3d36-8e1c-48a4-9cf3-c0a39732f8af"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='OD']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="3ca6069a-a0ad-4d36-9a28-6768fecb964a"
+			name="RadioButtonRFS"
+			refimgid="6a3bd152-9332-4110-823e-bac74b09556e"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='RFS']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="629b89e7-96fe-405d-b67f-ad3d51245101"
+			name="ValueWidth"
+			refimgid="befa04e4-d79a-49be-90b9-21d67023f1d4"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='0' and @class='Static' and @instance='17']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="30c4fb29-b978-43bb-8c9f-31d37e819603"
+			name="FeaturesTextWidth"
+			refimgid="f2e50d93-4408-45d3-b148-9712b01a5e8d"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Features:' and @class='Static' and @instance='16']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e8170f2f-e4f9-4b03-88e9-96485689a29a"
+			name="ButtonOK"
+			refimgid="de8fb4d7-ce73-4ba9-a0d7-2c2c4eb29387"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/container/button[@text='&amp;OK']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="d2f9aaeb-b6c2-4e0b-9950-14784356b08f"
+			name="Features"
+			refimgid="e08c2b6a-a2b1-40ba-9e09-8d7812d8bae6"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/button[@text='Features']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/button[@controlid='1516' and @class='Button' and @instance='6']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="ddf9e664-80f1-4f47-b701-fbef3ae1c9ff"
+			name="DataStream"
+			refimgid="0b400959-1167-490f-8ba0-23be72994c62"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Data Stream']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Data Stream']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="f62d51fa-8342-49e1-a6ca-d37387ca135f"
+			name="Hide"
+			refimgid="563849be-e174-4c84-966b-c67a9750982f"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Hide']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Hide']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="710e9a7d-4446-41a8-a8f3-9162a9b1d3f0"
+			name="Skip"
+			refimgid="f3f8b53d-2fb3-41fa-8776-e8d7aaeeff1d"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Skip']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Skip']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="ee86bb99-33f2-434a-9732-9874fecab013"
+			name="ANSI"
+			refimgid="6fca7819-4f2a-47ba-9592-7db575c40848"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/radiobutton[@text='ANSI']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='ANSI']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="13126ab4-edd2-4de3-89eb-f4072b24be58"
+			name="RadioButtonISO"
+			refimgid="e43dc49a-ae2c-43ae-ae40-131cab5b6ff5"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/radiobutton[@text='ISO']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='ISO']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="abdea130-da10-48d4-98bd-1ad886db0077"
+			name="NominalText"
+			refimgid="f19a841b-e8d9-4ecc-8edd-8fff796e8aae"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1501']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1501']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c5c00ea3-653d-4cba-b031-e407fd4ee63b"
+			name="UpperText"
+			refimgid="c3b7de7d-791b-4f7b-9010-4e3fae3e499c"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1502']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1502']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4d5f73e5-423c-4bf8-a62d-3e5f8447e1a7"
+			name="LowerText"
+			refimgid="55ba8089-8f2c-42df-8476-ace56346615a"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1503']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1503']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b962f7c0-6a84-4db4-854c-5e8b8d00d0a9"
+			name="PositionText"
+			refimgid="b70b4aff-10f6-41a1-bbd5-298564a01d31"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1512']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1512']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="752f7e01-c9a3-431a-ace5-087b007b9cd4"
+			name="Value"
+			refimgid="455c1ea7-b218-4025-a31d-61e908024ca8"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1227']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='0' and @class='Static' and @instance='15']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="dfecd940-d72f-4240-8873-9885868f6ac7"
+			name="FeaturesText"
+			refimgid="94a18e64-828d-4781-9383-08e45f7ce353"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1217']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Features:' and @class='Static' and @instance='14']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="51ffa9a4-9a98-4af6-b3c3-f84f5976be6e"
+			name="GeometricToleranceText"
+			refimgid="1fec6267-e49b-4bf5-bc48-b5506df5db90"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='65535' and @caption='Geometric Tolerances']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Geometric Tolerances']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="8be51132-4270-480a-8154-a235c7966982"
+			name="ModifiersText"
+			refimgid="20c6f813-cfb1-4129-bd6b-35a93774df44"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='65535' and @caption='Modifiers']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Modifiers']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="43801666-d899-48d6-9ae4-61ef39a8b122"
+			name="ConstructStepName"
+			refimgid="d06f0382-053e-4e3a-9c23-ca1e53295de6"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/text[@controlid='65535']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//text[@controlid='65535']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="4efacaa0-aa25-4b19-9361-a695349ecea3"
+			name="DropDownButton"
+			refimgid="de571641-e7dc-4d74-9c0b-4dc00ede93ce"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/combobox[@controlid='1151']/button[@text='>']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/combobox[@controlid='1151']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f8be19b5-a4f6-44df-8828-a56cb21011e7"
+			name="ButtonCancel"
+			refimgid="0d523024-20e2-4bf4-93e8-3a472c314b83"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/button[@text='&amp;Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//button[@controlid='33163']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="504b9c80-887a-4d56-8bb0-32af807e5cdf"
+			name="Features1"
+			refimgid="b92bdc69-242b-4904-a651-ef7cabb5328d"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/button[@text='Features']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/button[@controlid='1516' and @class='Button' and @instance='13']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="d4287b12-b98b-46ce-8d4b-b477771d8c53"
+			name="RefTextOne"
+			refimgid="6236f2ac-dc4c-4164-95b5-9429de7dbc11"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1218']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1218']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e42439f7-38a2-464d-871a-908cd23d1819"
+			name="CircularityText"
+			refimgid="91b548f8-e3bc-4ce4-8f6f-bdba40312264"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1467']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1467']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="11a92b92-d953-4e1e-8f56-cdb437a51a0d"
+			name="ConcentricityText"
+			refimgid="23719335-7017-41ad-81f7-c9c1d52dee25"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1510']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1510']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4df0ef70-7ea5-48ec-bee3-d808d5cd7dd1"
+			name="ProfileText"
+			refimgid="8700105c-349a-44e0-81c6-9f54c790475d"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1513']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1513']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="e6807605-f143-48fb-a3ad-ccc5276b40a1"
+			name="DiameterCircle"
+			refimgid="5eae8687-99fc-4ccc-bf09-bebe477f3b13"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/radiobutton[@text='Diameter']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/radiobutton[@text='Diameter']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="4a548262-49db-49da-9168-e88e6aa37a42"
+			name="RadiusCircle"
+			refimgid="2d92fcde-5a34-492b-97e3-22353f891b65"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/radiobutton[@text='Radius']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/radiobutton[@text='Radius']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="33812507-46c7-46b4-9617-d437777b6ba0"
+			name="ValueCircle"
+			refimgid="9e79a26b-6b15-4378-9441-6ac81d76608e"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1227']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='0' and @class='Static' and @instance='23']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4b02a36d-72d7-4e2c-9615-322e9537473f"
+			name="FeaturesTextCircle"
+			refimgid="07503d3b-d170-42c2-8c83-b2fd1166dc87"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1217']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Features:' and @class='Static' and @instance='22']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="430a06e6-5031-443a-ae4b-f19c1474aea5"
+			name="CompositeText"
+			refimgid="1c8667c8-3589-4fb0-b371-9bc8e4dcb251"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Composite']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Composite']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ed41b47a-2a2c-477c-a41c-1c2886c44cb9"
+			name="Features2"
+			refimgid="dacc3e17-c5c9-4e15-8cbf-5117a849ce01"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/button[@text='Features']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/button[@controlid='1516' and @class='Button' and @instance='12']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="73d37323-7a13-4961-b203-da71c4680a6d"
+			name="DropDownButtonLineOne"
+			refimgid="d7b5c5e4-5832-49c5-9dc5-63daa08df76f"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/combobox[@controlid='1163']/button[@text='>']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/combobox[@controlid='1163']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="0b26c48e-ac73-4c3f-9a68-c5ed8a5562f0"
+			name="DropDownButtonLineTwo"
+			refimgid="e02809e6-4990-4611-90a1-dee0b603a583"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/combobox[@controlid='1169']/button[@text='>']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/combobox[@controlid='1169']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="14c494b2-6580-4745-8277-52c9eb09213a"
+			name="AngleText"
+			refimgid="6fb43a83-aaed-4e9a-bc1c-8a1a0e4752f3"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1240']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1240']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="f3ab2fab-9f44-49f6-8897-edc13efa04f0"
+			name="StraightnessText"
+			refimgid="afb703bd-1c37-4d5f-82ea-87a91834101b"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1485']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1485']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="89d90781-3933-41b0-9dd2-0ef4e727e898"
+			name="ParallelismText"
+			refimgid="6d7bc5d0-4af6-41f8-81e8-c71e3babd56a"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='1718']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='1718']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="dde280a6-1df0-4d18-924c-59914e437f8e"
+			name="PerpendicularityText"
+			refimgid="a86b5af9-d266-4808-a903-125bc4ccd30f"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='40133']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='40133']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="7ace81cb-68d5-4c25-aebe-4d1b5380220f"
+			name="AngularityText"
+			refimgid="cbcd643c-1526-49a1-beb7-a596146cc4cd"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='40135']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='40135']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e00fe1e8-d104-4c58-afad-c4d70ca755c5"
+			name="RefTextTwo"
+			refimgid="d52600c1-56d4-45c2-a503-09ee463bb413"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='4121']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='4121']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c2d258ae-19f9-4ea6-9018-c60f735fdfb6"
+			name="RefTextThree"
+			refimgid="a1df49b2-f8b1-4d29-b93f-e5c1f56f9d29"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/text[@controlid='4122']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/text[@controlid='4122']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="eff76bcd-3ace-458d-9a15-b159cbb7138f"
+			name="ValueLine"
+			refimgid="c29146b6-e8f5-432d-8505-1cb0012a625c"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1227']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='0' and @class='Static' and @instance='25']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="2c458267-722f-481b-a2e8-8321e902af44"
+			name="FeaturesTextLine"
+			refimgid="e403604f-ff1e-47f5-827d-4fab8af007cb"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1217']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Features:' and @class='Static' and @instance='24']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="aebdfff9-da27-459e-b1dc-44f230052625"
+			name="Features3"
+			refimgid="8f58f76e-2570-4202-b816-a0058dd57ea4"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/button[@text='Features']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/button[@controlid='1516' and @class='Button' and @instance='9']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="4920f256-e398-45d2-b5d9-dc0b38e47330"
+			name="LocatePoint"
+			refimgid="228777f7-ef72-4eee-841c-ecb9918fcedb"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Locate Point']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Locate Point']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="18381d0d-f87d-424a-9cc5-6e7d76e54019"
+			name="CheckBoxX"
+			refimgid="e5536c9a-dafd-4e73-bbb6-24b4ce23a83b"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='X']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='X']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="88d1dad9-3f04-4351-b8b3-c80ba6475cb2"
+			name="CheckBoxY"
+			refimgid="cd28c7dd-8498-4521-a869-586efcbcd2f9"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/checkbox[@text='Y']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/checkbox[@text='Y']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="5cbaa640-9d08-49a5-be35-92d853c69325"
+			name="InputFromFile"
+			refimgid="02419669-e31c-40a4-b573-cec35bcde34b"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/checkbox[@text='Input From File']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/checkbox[@text='Input From File']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="e5f6b3f3-ab53-4ad0-9375-8402d01acd19"
+			name="KeepFile"
+			refimgid="ca82ca51-0cbc-4d31-ac4f-5c0c7a63cf9c"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/checkbox[@text='Keep File']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/checkbox[@text='Keep File']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="cecae110-7689-4747-b8c1-0350cb17d01e"
+			name="InputFromStep"
+			refimgid="0c01aa82-88ed-449c-beff-a6dc3c5cd6eb"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@caption='Input From Step']/container[@accessiblename='Input From Step']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@controlid='3001']/container[@accessiblename='Input From Step']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c5bdbe0d-d706-4c5c-8b98-d6d0c213c366"
+			name="ValuePoint"
+			refimgid="f6389dd5-0688-4718-8be2-9db202c5ff8c"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1227']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='0' and @class='Static' and @instance='13']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="90205f9c-71e5-4cd1-9991-da96496f7c25"
+			name="FeaturesTextPoint"
+			refimgid="87817d8d-d4db-4199-b51f-f844adc66389"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1217']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@caption='Features:' and @class='Static' and @instance='12']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="987b9fdc-f2f2-4971-8d12-812a8bebb7a5"
+			name="AtPosTextMath"
+			refimgid="7fa4a863-8cbc-498a-aa3c-a8b128b875c4"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/text[@controlid='33170']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//text[@controlid='33170']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="f5b88d30-368e-45b9-934d-80f28a7da4bf"
+			name="Angular"
+			refimgid="241f62f7-e48e-4474-a90a-4cadaa0757d3"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/radiobutton[@text='Angular']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='Angular']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="188fbd95-2105-4e81-b9d2-675a4efe522b"
+			name="Linear"
+			refimgid="753b0c12-3160-4f77-ac19-a56f6aa165c0"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@class='#32770']/radiobutton[@text='Linear']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@class='#32770']/radiobutton[@text='Linear']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="38ed6664-3127-4f8f-991f-446309e2cde4"
+			name="Expression"
+			refimgid="a6c7b35c-8b59-4c51-ba29-3eea921ae290"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container[@caption='Expression:']/container[@accessiblename='Expression:']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@controlid='1506']/container[@accessiblename='Expression:']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="cdf0856d-f429-4a4d-86ab-9bcd1d5c526a"
+			name="Conditions"
+			refimgid="dd769ae7-d5d8-45b1-9ab8-426b3833a25c"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/container/container[@accessiblename='Conditions']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/container[@controlid='1497']/container[@accessiblename='Conditions']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="7d2cf70c-9bd5-4b71-81ee-0d15a3175290"
+			name="GoToStepTextBranch"
+			refimgid="6c963df5-8435-4be0-a2c7-047f824b7aa6"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1502']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@controlid='1502']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="be5989c9-9ca1-4acc-a6e2-3738e7e1f96a"
+			name="THENTextBranch"
+			refimgid="9b528740-c45e-432b-b919-f40663d7f5c0"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1859']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@controlid='1859']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="82706444-6c12-4b3e-b5fe-11b0520e39f2"
+			name="ELSETextBranch"
+			refimgid="a9f629b3-4bb4-4c7e-b14c-b725ea98e2d1"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1860']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@controlid='1860']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="9f118903-be1f-4657-88ad-a6c01a4004cc"
+			name="GoToStepElseBranch"
+			refimgid="800d4cac-26cc-468b-858d-f915f0833752"
+			refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65281']/element/element[@controlid='59649']/container[@controlid='59648']/container/container/text[@controlid='1861']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']//container[@controlid='59648']/container[@class='#32770']/?/?/text[@controlid='1861']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="4d1580fd-cafb-4359-a656-ed636562d100"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="a1975bc3-6008-4058-bbef-0c1586d70420"
+			name="Minimum"
+			refimgid="606710a3-43a3-4558-9797-7bd6e8788f66"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Minimum']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="9ed93dc6-9cce-4dc6-a5e7-3c09b434b29b"
+			name="Maximum"
+			refimgid="eeb5fac4-4f8c-4f7e-81c8-31cf34bfd68a"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Maximum']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="aebd0b9e-940a-4e11-bc82-b6f9955c3deb"
+			name="BestFit"
+			refimgid="750ae800-74cd-4660-942c-6cd7906fef00"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='BestFit']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="e0d0c107-1047-4caa-8f2e-4ba7a0716f2e"
+			name="Line"
+			refimgid="d5d8040c-4825-448f-98c3-b99c400a6f5e"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Line']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="7923f93b-0ee2-4227-bcac-13294b254176"
+			name="Bisector"
+			refimgid="b625c70c-5387-4880-afe4-c033b094d308"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Bisector']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="6e01484b-fe68-4ac4-b02a-99bf902df0c0"
+			name="Perpendicular"
+			refimgid="3174db61-8414-41ba-b5e1-0002bf46e6db"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Perpendicular']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="350e9c58-a308-4711-9ad1-b390b5f15f08"
+			name="Tangent"
+			refimgid="9ef1cb24-75dd-4576-a0d0-8d80a9ead0ae"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Tangent']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="729b33e6-4263-45c3-bafd-80c45810ea97"
+			name="ListItem1Of2"
+			refimgid="efa61797-7263-4d17-b70a-2f42065998f6"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='1 of 2']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="a9e1f27d-e381-4438-b43d-9fef9c69a2d9"
+			name="ListItem2Of2"
+			refimgid="25c56a04-de48-416c-a1bd-3b2afef3b725"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='2 of 2']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

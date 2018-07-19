@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5DAEA151-6BB6-4CE5-9D63-919600858FA9}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConstructButtons</RootNamespace>
+    <AssemblyName>ConstructButtons</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>6d711da8-c2f3-4bac-98ce-09d45e7a3983</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1de5d6f9-b106-447c-b6b5-fb43cb7f6c48</id>
+    </Compile>
+    <Compile Include="ConstructButtonsRepository.cs">
+      <BoundTo>6d711da8-c2f3-4bac-98ce-09d45e7a3983</BoundTo>
+      <DependentUpon>ConstructButtonsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a3990074-f63e-46c1-b85c-f6be7e90e673</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>1182c23e-b7aa-48a1-bb41-113ae03670ee</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>9541d842-82d7-449f-a28c-dc675ac3b230</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b2a8275a-0751-411a-a5e0-8d888b08760f</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>9541d842-82d7-449f-a28c-dc675ac3b230</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7685a193-ab2a-499f-b7cf-0e533ce3438e</id>
+    </Compile>
+    <Compile Include="UtilityFunctions.cs">
+      <id>a9b1bbda-96cc-4af0-aa3a-a3a0fb11e382</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>5c300009-80b2-441d-bfa5-f4023a28ffba</id>
+    </None>
+    <None Include="ConstructButtonsRepository.rximg">
+      <BoundTo>6d711da8-c2f3-4bac-98ce-09d45e7a3983</BoundTo>
+      <DependentUpon>ConstructButtonsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8cb15d25-b6fa-430f-b380-2e076325ef42</id>
+    </None>
+    <None Include="ConstructButtonsRepository.rxrep">
+      <id>6d711da8-c2f3-4bac-98ce-09d45e7a3983</id>
+      <repoid>b5b8b797-6a2c-4b95-afa3-26d1736a09c1</repoid>
+      <reporootid>949b019f-16d6-4e05-84bb-2a0e2465bdb8</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>6d711da8-c2f3-4bac-98ce-09d45e7a3983</BoundTo>
+      <id>9541d842-82d7-449f-a28c-dc675ac3b230</id>
+      <recordtableid>74f5002c-7d21-4241-b119-809ad1a42d38</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConstructButtons.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d4f38fa9-402c-4c02-abaa-926746953f3c</id>
+    </Content>
+    <Content Include="ConstructButtons.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7b1de8b2-abde-4a61-b625-66267ee2e00d</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

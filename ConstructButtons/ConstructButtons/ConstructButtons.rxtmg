@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ConstructButtons"
+      id="a3cbc254-5d09-41ca-bf6d-fd074b624a5d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ConstructButtons"
+      id="a3cbc254-5d09-41ca-bf6d-fd074b624a5d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
