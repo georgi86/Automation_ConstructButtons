@@ -778,7 +778,7 @@ namespace ConstructButtons
             Delay.Milliseconds(200);
 
             string strReadText67 = repo.List1000.BestFit.Text;
-            string strHardcodedText67 = "BetFit";
+            string strHardcodedText67 = "BestFit";
             StringCompare.Text(strReadText67, strHardcodedText67);
             Delay.Milliseconds(200);
 
